@@ -3,7 +3,7 @@ A tool developed to parse major news websites, to convert the headlines of the d
 
 ## CLI
 HistoryCloud.py will require inputs of cloud startdate and enddate initially
-Later, the project can be expanded to allow optional inputs of frame requirement, weekly, monthly or yearly spacing, final gif name, and cloud averaging
+Later, the project can be expanded to allow optional inputs of frame requirement, weekly, monthly or yearly spacing, final gif (soft ‘G,’ pronounced ‘jif’) name, and cloud averaging
 
 ## FrequencyData Obj
  FrequencyData() object holds the keyword, and the number of times the keyword comes up in an object
