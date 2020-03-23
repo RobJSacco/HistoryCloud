@@ -42,4 +42,3 @@ CloudSticher(FolderName, GifName){
 }
 
 ```
-CloudSticher(
