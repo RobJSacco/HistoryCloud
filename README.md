@@ -36,7 +36,7 @@ CloudBuilder(FrequencyData){
 ### CloudSticher
 
 ```
-CloudSticher(FolderName, GifName){
+CloudStitcher(FolderName, GifName){
   //Code that stiches the images into a GIF
   f.save(GifName.gif)
 }
