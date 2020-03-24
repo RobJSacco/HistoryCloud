@@ -13,10 +13,10 @@ Later, the project can be expanded to allow optional inputs of frame requirement
 * int[] count = frequency_data.Count()
 
 
-## WebScraper
+## WebScraper - cloud_scraper
 
 ```
-cloudscraper(Date){
+cloud_scraper(Date){
   
   frequency_Data = FrequncyData()
   //Code that scrapes a webpage and writes keywords to frequency_data    
@@ -24,7 +24,7 @@ cloudscraper(Date){
 }
 ```
 
-## cloud_builder
+## WordCloud Builder - cloud_builder
 
 ```
 cloud_builder(frequency_data){
@@ -34,7 +34,7 @@ cloud_builder(frequency_data){
 }
 ```
 
-### cloud_stitcher
+### PNG to Gif sticher - cloud_stitcher
 
 ```
 cloud_stitcher(FolderName, GifName){
