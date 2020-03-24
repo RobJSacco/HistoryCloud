@@ -12,8 +12,6 @@
 class FrequencyData:
 
     def __init__(self, Keyword, Count):
-        self.Keyword = Keyword
-        self.Count = Count
         self.freqdict = {Keyword: Count}
 
 
