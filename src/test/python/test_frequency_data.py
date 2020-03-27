@@ -3,7 +3,7 @@
 # Create class with the following methods:
 # frequency_data.add(Keyword, Count) Adds a new keyword and count to the object
 # frequency_data.Keyword() Returns an list array containing Keywords so that frequency_data.Keyword()[0] is the first keyword in the list
-# FrequencyData.Count() Returns an int array of frequency counts so that frequency_data.Count()[0] is the frequency count corresponding to FrequencyData.Keyword()[0]
+# frequency_data.Count() Returns an int array of frequency counts so that frequency_data.Count()[0] is the frequency count corresponding to FrequencyData.Keyword()[0]
 #
 # Create src/test/python/test_frequency_data.py to test the class and provide dummy data
 
