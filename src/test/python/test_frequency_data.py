@@ -39,7 +39,7 @@ p1.add("Nate", 25)
 p1.add("Rob", 305)
 p1.add("Grant", 4)
 p1.add("Nate", 15)
-p1.add("Grant", 4000)
+p1.add("Grant", 4040)
 
 print(p1.freqdict)
 print(p1.Keywords()[0])
