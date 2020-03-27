@@ -10,7 +10,7 @@
 
 # Python Dictionary function and list used to create class
 
-class FrequencyData:
+class frequency_data:
 
     def __init__(self, Keyword, num):
         self.freqdict = {Keyword: num}
