@@ -19,11 +19,13 @@ class frequency_data:
     # The new count value is added to the old one. Conversly, if the keyword did not originally exist in the list, it will
     # be added with the associated count value.
     def add(self, Keyword, num):
-        if Keyword in self.freqdict:
-            self.freqdict[str(Keyword)] += num
-        else:
-            self.freqdict[str(Keyword)] = num
-
+        try:
+            if Keyword in self.freqdict:
+                self.freqdict[str(Keyword)] += int(num)
+            else:
+                self.freqdict[str(Keyword)] = int(num)
+        except ValueError:
+            print("Incorect value type: {}".format(num))
     # The following function will a list of the keywords in the freqdict dictionary.
     def Keywords(self):
         return list(self.freqdict.keys())
