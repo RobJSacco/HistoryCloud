@@ -12,8 +12,8 @@
 
 class frequency_data:
 
-    def __init__(self, Keyword, num):
-        self.freqdict = {Keyword: num}
+    def __init__(self):
+        self.freqdict = {}
 
     # The following function will add a given keyword and count to the list. If the Keyword existed previously in the list
     # The new count value is added to the old one. Conversly, if the keyword did not originally exist in the list, it will
