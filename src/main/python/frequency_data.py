@@ -35,6 +35,11 @@ class frequency_data:
     def Count(self):
         return list(self.freqdict.values())
 
+    # The following function will sort the freqdict list with the high count value being the first index
+    # in the list and the lowest being the last index in the list.
+    def sort_max(self):
+        return (sorted(self.freqdict.items(), key=lambda x: x[1], reverse=True))
+
 
 
 # End of class
